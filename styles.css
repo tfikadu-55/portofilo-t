@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;600;700;800&display=swap");
+
 :root {
   --bg: #0f1115;
   --bg-soft: #181c23;
@@ -25,7 +27,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: "Segoe UI Variable Display", "Trebuchet MS", sans-serif;
+  font-family: "Noto Serif", Georgia, "Times New Roman", serif;
   color: var(--text);
   background:
     radial-gradient(circle at top left, rgba(91, 214, 193, 0.18), transparent 28%),
@@ -182,7 +184,6 @@ body::before {
 
 .hero-copy h1,
 .section-heading h2 {
-  font-family: Georgia, "Times New Roman", serif;
   line-height: 1.02;
 }
 
