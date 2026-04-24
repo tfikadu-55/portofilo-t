@@ -446,7 +446,7 @@ body::before {
 .video-carousel {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(280px, 32%);
+  grid-auto-columns: minmax(250px, 26%);
   gap: 20px;
   overflow-x: auto;
   padding-bottom: 8px;
@@ -544,7 +544,7 @@ body::before {
 .video-wrap {
   position: relative;
   background: #06080a;
-  aspect-ratio: 9 / 16;
+  aspect-ratio: 9 / 14;
 }
 
 .video-wrap video {
@@ -555,11 +555,12 @@ body::before {
 }
 
 .video-copy {
-  padding: 18px 18px 22px;
+  padding: 14px 16px 18px;
 }
 
 .video-copy h3 {
   margin-bottom: 8px;
+  font-size: 1rem;
 }
 
 .reveal {
@@ -582,7 +583,7 @@ body::before {
   }
 
   .video-carousel {
-    grid-auto-columns: minmax(78%, 1fr);
+    grid-auto-columns: minmax(74%, 1fr);
   }
 
   .portrait-frame {
@@ -625,7 +626,7 @@ body::before {
   }
 
   .video-carousel {
-    grid-auto-columns: 92%;
+    grid-auto-columns: 88%;
   }
 
   .portrait-frame {
